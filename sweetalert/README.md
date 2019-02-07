@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="A success modal" src="https://raw.githubusercontent.com/t4t5/sweetalert/e3c2085473a0eb5a6b022e43eb22e746380bb955/assets/swal.gif">
+  <img alt="A success modal" src="https://github.com/mobfox/control-panel-libs/blob/master/sweetalert/assets/swal.gif?raw=true">
 </p>
 
 
@@ -62,5 +62,5 @@ var SweetAlertProps = {
 SweetAlert.show(SweetAlertProps);
 ```
 
-<a href="https://github.com/t4t5/sweetalert">ORIGINAL REPO - CLONE FROM</a>
+<a href="https://github.com/t4t5/sweetalert">ORIGINAL REPO - CLONED FROM</a>
 
