@@ -7,7 +7,7 @@ Libraries for Control Panel/React
 </p>
 
 ### TODOs
-- [x] Add sweet alert library
+- [x] Add [Sweet Alert](https://github.com/mobfox/control-panel-libs/tree/master/sweetalert) library
 - [ ] Move [AMS Lib](https://github.com/mobfox/amslib) to this repo and update reference to be installed from here.
 - [ ] Move [Google Authenticator](https://github.com/mobfox/GoogleAuthenticator) to this repo and update reference to be installed from here.
 - [ ] Move [isemail](https://github.com/mobfox/isemail) to this repo and update reference to be installed from here.
