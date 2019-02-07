@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.mobfox.com/">
-    <img alt="SweetAlert For Mobfox" src="https://github.com/mobfox/control-panel-libs/blob/master/sweetalert/assets/Logo.png?raw=true" width="300">
+    <img alt="SweetAlert For Mobfox" src="https://github.com/mobfox/control-panel-libs/blob/master/sweetalert/assets/Logo.png?raw=true">
   </a>
 </p>
 
