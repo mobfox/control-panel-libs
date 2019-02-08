@@ -1,5 +1,5 @@
 :root {
-  --swal-btn-confirm: #7cd1f9;
+  --swal-btn-confirm: #0078c9;
   --swal-btn-confirm-hover: color(var(--swal-btn-confirm) shade(3%));
   --swal-btn-confirm-active: color(var(--swal-btn-confirm) shade(10%));
 
@@ -34,13 +34,14 @@
   background-color: var(--swal-btn-confirm);
   color: white;
   border: none;
-  box-shadow: none;
+  box-shadow: 0 1px 2px rgba(26,26,26,.36);
   border-radius: 5px;
   font-weight: 600;
   font-size: 14px;
   padding: 10px 24px;
   margin: 0;
   cursor: pointer;
+  transition: box-shadow 0.3s linear;
   &:not([disabled]):hover {
     background-color: var(--swal-btn-confirm-hover);
   }
@@ -55,7 +56,9 @@
   }
   &[disabled] {
     opacity: 0.5;
-    cursor: default;
+    background-color: rgba(85,85,85,.12);
+    box-shadow: none;
+    cursor: not-allowed;
   }
   /* Remove ugly dotted lines in FireFox: */
   &::-moz-focus-inner {
@@ -63,8 +66,9 @@
   }
 
   &--cancel {
-    color: #555555;
-    background-color: var(--swal-btn-cancel);
+     color: #555555;
+     box-shadow: none;
+     background-color: var(--swal-btn-cancel);
     &:not([disabled]):hover {
       background-color: var(--swal-btn-cancel-hover);
     }
@@ -93,6 +97,3 @@
     }
   }
 }
-
-
-

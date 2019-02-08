@@ -16,9 +16,10 @@
   right: 0;
   text-align: center;
   font-size: 0; /* Remove gap between inline-block elements */
+  overflow-x: hidden;
   overflow-y: auto;
 
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(255, 255, 255);
   z-index: 10000;
   pointer-events: none;
   opacity: 0;
@@ -31,15 +32,22 @@
   }
 
   &--show-modal {
-    opacity: 1;
+    opacity: 0.85;
     pointer-events: auto;
 
     & .swal-modal {
-      opacity: 1;
-      pointer-events: auto;
-      box-sizing: border-box;
-      animation: showSweetAlert 0.3s;
-      will-change: transform;
+        background-color: #ffffff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.2);
+        border-radius: 6px;
+        color: rgb(0, 0, 0);
+        outline: 0;
+        opacity: 1;
+        pointer-events: auto;
+        box-sizing: border-box;
+        animation: showSweetAlert 0.3s;
+        will-change: transform;
     }
   }
 }
